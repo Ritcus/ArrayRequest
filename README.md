@@ -26,4 +26,4 @@ Folder Structure:
 
 -Controllers: For all the HTTP requests.
 
-//Not enough experience on Unit test, so did not included any of the test here
+//Not enough experience on Unit testing, so did not included any of the test here

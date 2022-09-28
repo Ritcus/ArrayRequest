@@ -14,7 +14,7 @@ Below is a practical coding question that is completed as a part of the applicat
 
 -Run it using IIS Express.
 
--Api call structure for both get method is as per sample: 
+-Api call structure for both get methods are as per sample: 
 
 Reverse: https://localhost:44361/api/arraycalc/reverse?productIds=1&productIds=2&productIds=3&productIds=4&productIds=5
 

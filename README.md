@@ -6,7 +6,7 @@ Overview
 
 Below is a practical coding question that is completed as a part of the application process.
 
-**All the coding has been done in C#. Visual Studio 2019 is recommended for running the project. **
+**All the coding has been done in C#. Visual Studio 2019 on .Net 3.1 is recommended for running the project. **
 
 ###INSTALL AND RUNNING PROCESS###
 

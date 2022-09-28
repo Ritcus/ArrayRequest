@@ -6,7 +6,7 @@ namespace BrillianceCodingC.Services
 {
     public class RepositoryService : IRepository
     {
-        public ArrayModel DeletePart(ArrayModel arrayModel)
+        public int[] DeletePart(ArrayModel arrayModel)
         {
             //Creating a new array cause array always has a fix length and it cannot be manipulated 
             int[] newArray = new int[arrayModel.productsIds.Length - 1];
@@ -23,7 +23,7 @@ namespace BrillianceCodingC.Services
             newArrayModel.productsIds = newArray;
             newArrayModel.postion = arrayModel.postion;
 
-            return newArrayModel;
+            return newArrayModel.productsIds;
         }
 
         public int[] Reverse(ArrayModel arrayModel)

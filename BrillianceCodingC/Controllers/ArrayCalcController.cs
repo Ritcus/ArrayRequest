@@ -38,7 +38,7 @@ namespace BrillianceCodingC.Controllers
         }
 
         [HttpGet]
-        public ArrayModel DeletePart(int position, [FromQuery] int[] productIds )
+        public int[] DeletePart(int position, [FromQuery] int[] productIds )
         {
             try
             {

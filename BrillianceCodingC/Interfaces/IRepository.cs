@@ -6,6 +6,6 @@ namespace BrillianceCodingC.Interfaces
     public interface IRepository
     {
         int[] Reverse(ArrayModel arrayModel);
-        ArrayModel DeletePart(ArrayModel arrayModel);
+        int[] DeletePart(ArrayModel arrayModel);
     }
 }
